@@ -5,7 +5,8 @@ from django.db import models
 class location(models.Model):
     """Defines the Location of the Parking Space"""
     name = models.CharField(max_length=255)
-    
+    def __str__(self):
+        return self.name
 
 class parkingSpace(models.Model):
     """Defines the parking location and seats"""
