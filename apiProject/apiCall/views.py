@@ -10,7 +10,7 @@ class GridList(generics.ListAPIView):
     queryset = parkingSpace.objects.all()
     serializer_class = GridSerializer
 
-class GridDetail(generics.RetrieveAPIView):
+class GridDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = parkingSpace.objects.all()
     serializer_class = GridSerializer
 
