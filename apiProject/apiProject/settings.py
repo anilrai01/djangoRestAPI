@@ -25,7 +25,7 @@ SECRET_KEY = '^_vdb9or5_=a$r*-(@%(l839^q*gkhos^q&3w45!&dv+q%+izs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','*']
 
 
 # Application definition
